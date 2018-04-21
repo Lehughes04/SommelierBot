@@ -160,8 +160,8 @@ for tweet in public_tweets['statuses']:
 	#print(wine_score)
 	#elif wine_type=='white':
 		#Use the white wine model
-	else:
-		wine_score = 'Does not compute'
+	#else:
+		#wine_score = 'Does not compute'
 		
 	# Reply with the score
 	api.update_status("@" + twitNm + " The score for your wine is:   " + str(wine_score) \
