@@ -155,9 +155,9 @@ for tweet in public_tweets['statuses']:
 	
 	#Red/White wine 
 	#if wine_type == 'red':
-		predicted_class = knn.predict(wine_inputs)
-		wine_score = predicted_class
-		#print(wine_score)
+	predicted_class = knn.predict(wine_inputs)
+	wine_score = predicted_class
+	#print(wine_score)
 	#elif wine_type=='white':
 		#Use the white wine model
 	else:
